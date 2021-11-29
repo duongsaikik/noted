@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="my_notes">My Notes</string>
+    <string name="search_notes">Search notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="node_subtitle">Node SubTitle</string>
+    <string name="type_note_here">Type note here...</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="ch_n_m_u">Chọn màu</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="b_n_c_ch_c_ch_n_mu_n_xo_note_n_y">Bạn có chắc chắn muốn xoá Note này ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="th_m_nh">Thêm Ảnh</string>
+</resources>
