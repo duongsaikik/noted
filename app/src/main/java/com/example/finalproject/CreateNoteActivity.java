@@ -130,8 +130,12 @@ public class CreateNoteActivity extends AppCompatActivity {
         if (alreadyAvailableNote.getWebLink() != null && !alreadyAvailableNote.getWebLink().trim().isEmpty()){
             textWebURL.setText(alreadyAvailableNote.getWebLink());
         }
-        if (alreadyAvailableNote.getImage() != null && !alreadyAvailableNote.getWebLink().trim().isEmpty()){
-
+        if (alreadyAvailableNote.getImage() != null){
+            imageNote.setImageBitmap(BitmapFactory.decodeFile(alreadyAvailableNote.getImage()));
+            imageNote.setVisibility(View.VISIBLE);
+            selectImagePath = alreadyAvailableNote.getImage();
+        }else{
+            imageNote.setVisibility(View.GONE);
         }
     }
 
